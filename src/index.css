@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark;
+}
 
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
-  font-family: "Hind", sans-serif;
 }
